@@ -1,0 +1,36 @@
+{
+  "name": "hw-11",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --fix .",
+    "format": "prettier -w .",
+    "serve-json": "json-server --watch db.json"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
+    "tailwindcss": "^3.2.7",
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.10.3",
+    "flowbite": "^1.6.4",
+    "json-server": "^0.17.2",
+    "lodash": "^4.17.21",
+    "tw-elements": "^1.0.0-beta1",
+    "vite-jsconfig-paths": "^2.0.1"
+  }
+}
